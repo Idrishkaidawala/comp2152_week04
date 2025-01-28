@@ -169,6 +169,10 @@ loot  = loot_options.pop(lootRoll - 1)
 belt.append(loot)
 print("Your belt: ", belt)
 
+#lab04 - Q7 - Sort the belt
+print("You're neat, so organize your belt alphbericallty:")
+belt.sort ()
+print("your belt: " , belt)
 
 
 
